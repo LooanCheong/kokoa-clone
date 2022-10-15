@@ -1,14 +1,20 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 120vh;
+  height: 110vh;
   background-color: var(--yellow);
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 32px;
   top: 0;
+}
+
+#no-mobile img {
+  width: 300px;
+  height: 300px;
 }
 
 @media screen and (max-width: 645px) {
