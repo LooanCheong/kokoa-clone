@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #E1FFB1;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 10px;
@@ -48,7 +48,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
+  flex-direction: column;
+  font-size: 30px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+}
+
+#splash-screen img{
+  width: 500px;
+  height: 300px;
 }
