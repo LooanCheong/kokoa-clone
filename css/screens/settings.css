@@ -8,11 +8,12 @@
 }
 
 .settings__setting i {
+  width: 30px;
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
 }
 
-.settings__setting-colimn:last-child {
-  opacity: 0.5;
+.main-screen__blank {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
