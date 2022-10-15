@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="music-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -34,7 +34,75 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen">
+      <div class="artist">
+        <img
+          src="https://pbs.twimg.com/profile_images/1212967385897943041/hezIqIK7_400x400.jpg"
+        />
+        <div class="artist__name">
+          <p>IU</p>
+          <p>K-Hip-Hop-Queen</p>
+        </div>
+        <div class="artist__genre">Rap, Hip-Hop</div>
+      </div>
+      <div class="button">
+        <div class="button__shuffle">Shuffle</div>
+        <div class="button__heart"><i class="fas fa-heart"></i>999,999+</div>
+      </div>
+      <ul class="musiclist">
+        <li class="musiclist__musicbox">
+          <div class="musiclist__music">
+            <div class="now-playing">
+              <div class="square-box">
+                <div class="square-box__square"></div>
+                <div class="square-box__square"></div>
+                <div class="square-box__square"></div>
+              </div>
+            </div>
+            <img
+              src="https://image.bugsm.co.kr/album/images/500/202860/20286013.jpg"
+            />
+            <div class="musiclist__title">
+              <div class="musiclist__artist">IU</div>
+              <div class="musiclist__music-title">Blueming</div>
+            </div>
+          </div>
+        </li>
+        <li class="musiclist__musicbox">
+          <div class="musiclist__music">
+            <img
+              src="https://w.namu.la/s/db95e8529db90e3ad7c75b6d7ea8506b7a4a6f0d547810cc6ab1aa8c7f063f848a56c4f93636c7fa53e81f5fe00a3374df82f3d4b38372669e466cad41c3ea9f36b7e06acae147f61a6142966e9502575a375de7167253df70ee05bae3ef5d4d3a58e2cabf91779f4bab903b953d6ef3"
+            />
+            <div class="musiclist__title">
+              <div class="musiclist__artist">IU</div>
+              <div class="musiclist__music-title">Lilac</div>
+            </div>
+          </div>
+        </li>
+        <li class="musiclist__musicbox">
+          <div class="musiclist__music">
+            <img
+              src="https://w.namu.la/s/5354ec62b5de740fcb310c81875101ee3ab8907f62f1ee2a265c45c0f4d38ba25f5cd2e356d07b663491b76760a09abceb74b84506756fd3b86d2c611a4eefbd81a625e113bb88ef3f00cd48d591eebab676cf68f2842affe46f6460d53762b7a2259db40c0838fca076650f790bd681"
+            />
+            <div class="musiclist__title">
+              <div class="musiclist__artist">IU</div>
+              <div class="musiclist__music-title">You&I</div>
+            </div>
+          </div>
+        </li>
+        <li class="musiclist__musicbox">
+          <div class="musiclist__music">
+            <img
+              src="https://w.namu.la/s/45aa889292a2e516f5b00987f180fbe5fa7615c0ff57a4f486d3ab7124d8dcd2c1cf9106d6abd1c90ebe2b430c5a891cb21c2c9833e270b5842ecfc401434a26c5668d4d59021cdbc96a993d750ddbd5111e7a8aad5f2912ddfcebc7b3f9fc245598a924e58cde3eb06cce564a90349e"
+            />
+            <div class="musiclist__title">
+              <div class="musiclist__artist">IU</div>
+              <div class="musiclist__music-title">Peach</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
