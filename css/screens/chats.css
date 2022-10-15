@@ -1,0 +1,9 @@
+.chats-main .user-component:hover {
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+
+.chats-main .user-component {
+  margin-bottom: 25px;
+}
