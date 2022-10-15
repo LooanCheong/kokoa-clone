@@ -10,7 +10,7 @@
   position: sticky;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #e1ffb1;
 }
 
 #music-screen .status-bar {
@@ -119,7 +119,7 @@
 .musiclist__musicbox {
   width: 80%;
   margin-bottom: 50px;
-  background-color: #c8b6de;
+  background-color: #b6e388;
   border-radius: 20px;
   border: 0.5px solid;
   position: relative;
